@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box1 {
+            height: 600px;
+            width: 100%;
+            border: 2px solid black;
+            background: linear-gradient(rgba(10, 1, 1, 0.9), rgba(8, 8, 8, 0.3)), url(photo/netflix.jpg);
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+            font-size: 50px;
+
+
+        }
+
+        select {
+            background: none;
+            color: white;
+            margin: 20px;
+            padding: 7px 15px;
+        }
+
+        option {
+            color: black;
+        }
+
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin: 70px;
+            font-size: 300%;
+        }
+
+        button {
+            color: white;
+            background-color: red;
+            margin: 20px;
+            padding: 7px 15px;
+            font-weight: bold;
+            border-radius: 7px;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        h5 {
+            color: white;
+            font-size: large;
+            text-align: center;
+        }
+
+        h6 {
+            color: white;
+            text-align: center;
+            font-size: large;
+        }
+
+        input {
+            background-color: lightskyblue;
+            height: 35px;
+        }
+
+        .email {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        <div class="menu">
+            <a href="">NETFLIX</a>
+            <div class="top-right">
+                <select>
+                    <option>English</option>
+                    <option>Hindi</option>
+                    <option>Gujrati</option>
+                </select>
+                <button>Sign in</button>
+            </div>
+        </div>
+        <h1>Unlimited movies, TV shows, and more</h1>
+        <h5>Watch anywhere. Cancel anytime.</h5>
+        <br>
+        <h6>Ready to watch? Enter your email to create or restart your membership.</h6>
+        <div class="email">
+            <input type="email" placeholder="Email address">
+            <button>Get Started</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
